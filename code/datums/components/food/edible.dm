@@ -31,6 +31,8 @@ Behavior that's still missing from this component that original food items had t
 	var/list/eatverbs
 	///Callback to be ran for when you take a bite of something
 	var/datum/callback/after_eat
+	///Callback to be ran for when you finish eating something
+	var/datum/callback/on_consume
 	///Last time we checked for food likes
 	var/last_check_time
 
