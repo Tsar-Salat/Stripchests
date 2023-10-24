@@ -180,21 +180,6 @@
 	result = /obj/item/reagent_containers/food/snacks/hotcrossbun
 	subcategory = CAT_MISCFOOD
 
-
-/obj/item/reagent_containers/food/snacks/store/cake/brioche
-	name = "brioche cake"
-	desc = "A ring of sweet, glazed buns."
-	icon_state = "briochecake"
-	slice_path = /obj/item/reagent_containers/food/snacks/cakeslice/brioche
-	slices_num = 6
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 2)
-
-/obj/item/reagent_containers/food/snacks/cakeslice/brioche
-	name = "brioche cake slice"
-	desc = "Delicious sweet-bread. Who needs anything else?"
-	icon_state = "briochecake_slice"
-	filling_color = "#FFD700"
-
 /datum/crafting_recipe/food/briochecake
 	name = "Brioche cake"
 	reqs = list(
