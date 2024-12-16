@@ -86,7 +86,7 @@
 	name = "Spicy sushi roll"
 	reqs = list(
 		/obj/item/reagent_containers/food/snacks/grown/seaweed = 1,
-		/obj/item/reagent_containers/food/snacks/salad/boiledrice = 1,
+		/obj/item/food/salad/boiledrice = 1,
 		/obj/item/reagent_containers/food/snacks/fishmeat = 1,
 		/obj/item/reagent_containers/food/snacks/grown/chili = 1,
 		/obj/item/reagent_containers/food/snacks/grown/onion = 1
@@ -107,7 +107,7 @@
 	name = "Nigiri sushi"
 	reqs = list(
 		/obj/item/reagent_containers/food/snacks/grown/seaweed = 1,
-		/obj/item/reagent_containers/food/snacks/salad/boiledrice = 1,
+		/obj/item/food/salad/boiledrice = 1,
 		/obj/item/reagent_containers/food/snacks/fishmeat = 1,
 		/datum/reagent/consumable/soysauce = 2
 	)
@@ -248,10 +248,10 @@
 /datum/crafting_recipe/food/ricepork
 	name = "Rice and Pork"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/salad/boiledrice = 1,
+		/obj/item/food/salad/boiledrice = 1,
 		/obj/item/food/meat/cutlet = 2
 	)
-	result = /obj/item/reagent_containers/food/snacks/salad/ricepork
+	result = /obj/item/food/salad/ricepork
 	subcategory = CAT_MEAT
 
 /datum/crafting_recipe/food/ribs
@@ -267,12 +267,12 @@
 /datum/crafting_recipe/food/gumbo
 	name = "Black eyed gumbo"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/salad/boiledrice = 1,
+		/obj/item/food/salad/boiledrice = 1,
 		/obj/item/reagent_containers/food/snacks/grown/peas = 1,
 		/obj/item/reagent_containers/food/snacks/grown/chili = 1,
 		/obj/item/food/meat/cutlet = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/salad/gumbo
+	result = /obj/item/food/salad/gumbo
 	subcategory = CAT_MEAT
 
 /datum/crafting_recipe/food/fishfry

@@ -3335,7 +3335,7 @@
 /area/ship/hallway/central)
 "Xw" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/salad/oatmeal{
+/obj/item/food/salad/oatmeal{
 	pixel_y = 14;
 	pixel_x = 10;
 	desc = "A nice bowl of oatmeal. You aren't quite sure how long it's been sitting here."
