@@ -873,7 +873,7 @@
 	pixel_x = -5;
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/food/snacks/chocolatebar{
+/obj/item/food/chocolatebar{
 	pixel_y = 11;
 	pixel_x = 8
 	},

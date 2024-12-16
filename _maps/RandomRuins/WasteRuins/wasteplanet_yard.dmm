@@ -106,7 +106,7 @@
 /obj/structure/table,
 /obj/item/flashlight/lamp,
 /obj/machinery/light/small/directional/east,
-/obj/item/reagent_containers/food/snacks/chewable/bubblegum/nicotine{
+/obj/item/food/bubblegum/nicotine{
 	pixel_x = -8;
 	pixel_y = 11
 	},

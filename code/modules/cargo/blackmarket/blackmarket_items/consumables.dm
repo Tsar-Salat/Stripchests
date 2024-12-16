@@ -140,7 +140,7 @@
 /datum/blackmarket_item/consumable/gumballs
 	name = "Gumball"
 	desc = "Looking for a sweet treat? These gumballs are sure to satisfy."
-	item = /obj/item/reagent_containers/food/snacks/gumball
+	item = /obj/item/food/gumball
 
 	price_min = 10
 	price_max = 20

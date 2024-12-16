@@ -61,7 +61,7 @@
 	name = "Chocolate cake"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/reagent_containers/food/snacks/chocolatebar = 2
+		/obj/item/food/chocolatebar = 2
 	)
 	result = /obj/item/food/cake/chocolate
 	subcategory = CAT_CAKE
@@ -136,7 +136,7 @@
 	name = "Blackberry and Strawberry Chocolate cake"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/reagent_containers/food/snacks/chocolatebar = 2,
+		/obj/item/food/chocolatebar = 2,
 		/obj/item/reagent_containers/food/snacks/grown/berries = 5
 	)
 	result = /obj/item/food/cake/bscc

@@ -1018,7 +1018,7 @@
 			/obj/item/reagent_containers/food/snacks/grown/potato,
 			/obj/item/reagent_containers/food/snacks/grown/potato/sweet,
 			/obj/item/reagent_containers/food/snacks/grown/apple,
-			/obj/item/reagent_containers/food/snacks/chocolatebar,
+			/obj/item/food/chocolatebar,
 			/obj/item/reagent_containers/food/snacks/grown/cherries,
 			/obj/item/reagent_containers/food/snacks/grown/banana,
 			/obj/item/reagent_containers/food/snacks/grown/cabbage,
@@ -1087,7 +1087,7 @@
 	for(var/i in 1 to 2)
 		new /obj/item/reagent_containers/food/snacks/grown/cherries(src)
 		new /obj/item/reagent_containers/food/snacks/grown/banana(src)
-	new /obj/item/reagent_containers/food/snacks/chocolatebar(src)
+	new /obj/item/food/chocolatebar(src)
 	new /obj/item/reagent_containers/food/snacks/grown/cocoapod(src)
 	new /obj/item/reagent_containers/food/snacks/grown/apple(src)
 
@@ -1464,7 +1464,7 @@
 
 /obj/item/storage/box/gum/PopulateContents()
 	for(var/i in 1 to 4)
-		new/obj/item/reagent_containers/food/snacks/chewable/bubblegum(src)
+		new/obj/item/food/bubblegum(src)
 
 /obj/item/storage/box/gum/nicotine
 	name = "nicotine gum packet"
@@ -1474,7 +1474,7 @@
 
 /obj/item/storage/box/gum/nicotine/PopulateContents()
 	for(var/i in 1 to 4)
-		new/obj/item/reagent_containers/food/snacks/chewable/bubblegum/nicotine(src)
+		new/obj/item/food/bubblegum/nicotine(src)
 
 /obj/item/storage/box/gum/happiness
 	name = "HP+ gum packet"
@@ -1490,7 +1490,7 @@
 
 /obj/item/storage/box/gum/happiness/PopulateContents()
 	for(var/i in 1 to 4)
-		new/obj/item/reagent_containers/food/snacks/chewable/bubblegum/happiness(src)
+		new/obj/item/food/bubblegum/happiness(src)
 
 /obj/item/storage/box/gum/bubblegum
 	name = "bubblegum gum packet"
@@ -1499,7 +1499,7 @@
 
 /obj/item/storage/box/gum/bubblegum/PopulateContents()
 	for(var/i in 1 to 4)
-		new/obj/item/reagent_containers/food/snacks/chewable/bubblegum/bubblegum(src)
+		new/obj/item/food/bubblegum/bubblegum(src)
 
 /obj/item/storage/box/shipping
 	name = "box of shipping supplies"
