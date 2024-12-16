@@ -2275,19 +2275,19 @@
 "Bs" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/transparent/neutral/diagonal,
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = 6;
 	pixel_y = 14
 	},
-/obj/item/reagent_containers/food/snacks/canned/peaches{
+/obj/item/food/canned/peaches{
 	pixel_x = -6;
 	pixel_y = 14
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = 6;
 	pixel_y = 2
 	},

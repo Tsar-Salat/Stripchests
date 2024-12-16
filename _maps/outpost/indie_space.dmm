@@ -540,7 +540,7 @@
 	pixel_y = -2;
 	pixel_x = 2
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = -9;
 	pixel_y = 18
 	},
@@ -1314,7 +1314,7 @@
 /obj/item/trash/can/food/beans{
 	pixel_y = 1
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = 13;
 	pixel_y = -9
 	},
@@ -3508,9 +3508,9 @@
 /mob/living/simple_animal/pet/mothroach{
 	name = "beanroach"
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans,
-/obj/item/reagent_containers/food/snacks/canned/beans,
-/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/food/canned/beans,
+/obj/item/food/canned/beans,
+/obj/item/food/canned/beans,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroid,
 /area/outpost/maintenance/central)
@@ -4225,7 +4225,7 @@
 	pixel_x = 9;
 	pixel_y = 10
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans{
+/obj/item/food/canned/beans{
 	pixel_x = -14;
 	pixel_y = -7
 	},

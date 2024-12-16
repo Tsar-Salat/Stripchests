@@ -3422,7 +3422,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/rum{
 	pixel_x = -6
 	},
-/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/food/canned/beans,
 /obj/item/spacecash/bundle/c500,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
 	pixel_x = 8

@@ -1314,6 +1314,7 @@
 #include "code\game\objects\items\food\meatslab.dm"
 #include "code\game\objects\items\food\mexican.dm"
 #include "code\game\objects\items\food\monkeycube.dm"
+#include "code\game\objects\items\food\packaged.dm"
 #include "code\game\objects\items\food\pancakes.dm"
 #include "code\game\objects\items\food\pastries.dm"
 #include "code\game\objects\items\food\pizza.dm"
