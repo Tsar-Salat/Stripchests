@@ -100,7 +100,7 @@
 	time = 40
 	reqs = list(/datum/reagent/consumable/sodiumchloride = 1,
 				/datum/reagent/consumable/blackpepper = 1,
-				/obj/item/reagent_containers/food/snacks/pastrybase = 2
+				/obj/item/food/pastrybase = 2
 	)
 	result = /obj/item/food/baguette
 	subcategory = CAT_MISCFOOD
@@ -146,7 +146,7 @@
 /datum/crafting_recipe/food/burrito
 	name ="Burrito"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
+		/obj/item/food/tortilla = 1,
 		/obj/item/reagent_containers/food/snacks/grown/soybeans = 2
 	)
 	result = /obj/item/reagent_containers/food/snacks/burrito
@@ -155,7 +155,7 @@
 /datum/crafting_recipe/food/cheesyburrito
 	name ="Cheesy burrito"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
+		/obj/item/food/tortilla = 1,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 2,
 		/obj/item/reagent_containers/food/snacks/grown/soybeans = 1
 	)
@@ -165,7 +165,7 @@
 /datum/crafting_recipe/food/carneburrito
 	name ="Carne de asada burrito"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
+		/obj/item/food/tortilla = 1,
 		/obj/item/reagent_containers/food/snacks/meat/cutlet = 2,
 		/obj/item/reagent_containers/food/snacks/grown/soybeans = 1
 	)
@@ -175,7 +175,7 @@
 /datum/crafting_recipe/food/fuegoburrito
 	name ="Fuego plasma burrito"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
+		/obj/item/food/tortilla = 1,
 		/obj/item/reagent_containers/food/snacks/grown/ghost_chili = 2,
 		/obj/item/reagent_containers/food/snacks/grown/soybeans = 1
 	)
@@ -199,9 +199,9 @@
 	name ="Nachos"
 	reqs = list(
 		/datum/reagent/consumable/sodiumchloride = 1,
-		/obj/item/reagent_containers/food/snacks/tortilla = 1
+		/obj/item/food/tortilla = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/nachos
+	result = /obj/item/food/nachos
 	subcategory = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/cheesynachos
@@ -209,9 +209,9 @@
 	reqs = list(
 		/datum/reagent/consumable/sodiumchloride = 1,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
-		/obj/item/reagent_containers/food/snacks/tortilla = 1
+		/obj/item/food/tortilla = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/cheesynachos
+	result = /obj/item/food/cheesynachos
 	subcategory = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/cubannachos
@@ -219,9 +219,9 @@
 	reqs = list(
 		/datum/reagent/consumable/ketchup = 5,
 		/obj/item/reagent_containers/food/snacks/grown/chili = 2,
-		/obj/item/reagent_containers/food/snacks/tortilla = 1
+		/obj/item/food/tortilla = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/cubannachos
+	result = /obj/item/food/cubannachos
 	subcategory = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/melonkeg
@@ -270,27 +270,6 @@
 	result = /obj/item/reagent_containers/food/snacks/powercrepe
 	subcategory = CAT_MISCFOOD
 
-/datum/crafting_recipe/food/taco
-	name ="Classic Taco"
-	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
-		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
-		/obj/item/reagent_containers/food/snacks/meat/cutlet = 1,
-		/obj/item/reagent_containers/food/snacks/grown/cabbage = 1,
-	)
-	result = /obj/item/reagent_containers/food/snacks/taco
-	subcategory = CAT_MISCFOOD
-
-/datum/crafting_recipe/food/tacoplain
-	name ="Plain Taco"
-	reqs = list(
-		/obj/item/reagent_containers/food/snacks/tortilla = 1,
-		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
-		/obj/item/reagent_containers/food/snacks/meat/cutlet = 1,
-	)
-	result = /obj/item/reagent_containers/food/snacks/taco/plain
-	subcategory = CAT_MISCFOOD
-
 /datum/crafting_recipe/food/branrequests
 	name = "Bran Requests Cereal"
 	reqs = list(
@@ -326,7 +305,7 @@
 /datum/crafting_recipe/food/crab_rangoon
 	name = "Crab Rangoon"
 	reqs = list(
-		/obj/item/reagent_containers/food/snacks/doughslice = 1,
+		/obj/item/food/flatdoughslice = 1,
 		/datum/reagent/consumable/cream = 5,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
 		/obj/item/reagent_containers/food/snacks/meat/rawcrab = 1

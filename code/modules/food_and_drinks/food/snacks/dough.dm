@@ -2,7 +2,7 @@
 
 /////////////////// Dough Ingredients ////////////////////////
 
-/obj/item/reagent_containers/food/snacks/dough
+/obj/item/food/flatdough
 	name = "dough"
 	desc = "A piece of dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
@@ -15,7 +15,7 @@
 
 
 // Dough + rolling pin = flat dough
-/obj/item/reagent_containers/food/snacks/dough/attackby(obj/item/I, mob/user, params)
+/obj/item/food/flatdough/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/kitchen/rollingpin))
 		if(isturf(loc))
 			new /obj/item/reagent_containers/food/snacks/flatdough(loc)
@@ -33,15 +33,15 @@
 	desc = "A flattened dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "flat dough"
-	slice_path = /obj/item/reagent_containers/food/snacks/doughslice
+	slice_path = /obj/item/food/flatdoughslice
 	slices_num = 3
-	cooked_type = /obj/item/reagent_containers/food/snacks/pizzabread
+	cooked_type = /obj/item/food/pizzabread
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6)
 	w_class = WEIGHT_CLASS_NORMAL
 	tastes = list("dough" = 1)
 	foodtype = GRAIN
 
-/obj/item/reagent_containers/food/snacks/pizzabread
+/obj/item/food/pizzabread
 	name = "pizza bread"
 	desc = "Add ingredients to make a pizza."
 	icon = 'icons/obj/food/food_ingredients.dmi'
@@ -52,20 +52,20 @@
 	foodtype = GRAIN
 
 
-/obj/item/reagent_containers/food/snacks/doughslice
+/obj/item/food/flatdoughslice
 	name = "dough slice"
 	desc = "A slice of dough. Can be cooked into a bun."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "doughslice"
 	slice_path = /obj/item/reagent_containers/food/snacks/bait/doughball
 	slices_num = 5
-	cooked_type = /obj/item/reagent_containers/food/snacks/bun
+	cooked_type = /obj/item/food/bun
 	filling_color = "#CD853F"
 	tastes = list("dough" = 1)
 	foodtype = GRAIN
 
 
-/obj/item/reagent_containers/food/snacks/bun
+/obj/item/food/bun
 	name = "bun"
 	desc = "A base for any self-respecting burger."
 	icon = 'icons/obj/food/burgerbread.dmi'
@@ -76,7 +76,7 @@
 	tastes = list("bun" = 1) // the bun tastes of bun.
 	foodtype = GRAIN
 
-/obj/item/reagent_containers/food/snacks/cakebatter
+/obj/item/food/cakebatter
 	name = "cake batter"
 	desc = "Cook it to get a cake."
 	icon = 'icons/obj/food/food_ingredients.dmi'
@@ -88,7 +88,7 @@
 	foodtype = GRAIN | DAIRY
 
 // Cake batter + rolling pin = pie dough
-/obj/item/reagent_containers/food/snacks/cakebatter/attackby(obj/item/I, mob/user, params)
+/obj/item/food/cakebatter/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/kitchen/rollingpin))
 		if(isturf(loc))
 			new /obj/item/reagent_containers/food/snacks/piedough(loc)
@@ -104,7 +104,7 @@
 	desc = "Cook it to get a pie."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "piedough"
-	slice_path = /obj/item/reagent_containers/food/snacks/rawpastrybase
+	slice_path = /obj/item/food/rawpastrybase
 	slices_num = 3
 	cooked_type = /obj/item/reagent_containers/food/snacks/pie/plain
 	list_reagents = list(/datum/reagent/consumable/nutriment = 9)
@@ -112,18 +112,18 @@
 	tastes = list("dough" = 1)
 	foodtype = GRAIN | DAIRY
 
-/obj/item/reagent_containers/food/snacks/rawpastrybase
+/obj/item/food/rawpastrybase
 	name = "raw pastry base"
 	desc = "Must be cooked before use."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "rawpastrybase"
-	cooked_type = /obj/item/reagent_containers/food/snacks/pastrybase
+	cooked_type = /obj/item/food/pastrybase
 	filling_color = "#CD853F"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1)
 	tastes = list("raw pastry" = 1)
 	foodtype = GRAIN | DAIRY
 
-/obj/item/reagent_containers/food/snacks/pastrybase
+/obj/item/food/pastrybase
 	name = "pastry base"
 	desc = "A base for any self-respecting pastry."
 	icon = 'icons/obj/food/food_ingredients.dmi'
