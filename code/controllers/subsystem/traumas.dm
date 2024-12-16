@@ -142,8 +142,8 @@ SUBSYSTEM_DEF(traumas)
 			/obj/item/clothing/suit/toggle/owlwings, /obj/item/clothing/under/costume/owl, /obj/item/clothing/mask/gas/owl_mask)),
 
 		"anime" = typecacheof(list(
-			/obj/item/clothing/under/costume/schoolgirl, /obj/item/reagent_containers/food/snacks/sashimi,
-			/obj/item/reagent_containers/food/snacks/chawanmushi,
+			/obj/item/clothing/under/costume/schoolgirl, /obj/item/food/sashimi,
+			/obj/item/food/chawanmushi,
 			/obj/item/reagent_containers/food/drinks/bottle/sake, /obj/item/throwing_star,
 			/obj/item/clothing/suit/space/space_ninja,
 			/obj/item/clothing/mask/gas/space_ninja, /obj/item/clothing/shoes/space_ninja, /obj/item/clothing/gloves/space_ninja,

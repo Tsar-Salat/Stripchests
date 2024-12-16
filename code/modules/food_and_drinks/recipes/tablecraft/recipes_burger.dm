@@ -189,7 +189,7 @@
 		/obj/item/food/meat/steak/plain = 5,
 		/obj/item/reagent_containers/food/snacks/grown/tomato = 4,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 3,
-		/obj/item/reagent_containers/food/snacks/boiledegg = 1,
+		/obj/item/food/boiledegg = 1,
 		/obj/item/food/meat/bacon = 1,
 		/obj/item/food/bun = 1
 
@@ -306,7 +306,7 @@
 /datum/crafting_recipe/food/mcguffin
 	name = "McGuffin"
 	reqs = list(
-			/obj/item/reagent_containers/food/snacks/friedegg = 1,
+			/obj/item/food/friedegg = 1,
 			/obj/item/food/meat/bacon = 2,
 			/obj/item/food/bun = 1
 	)

@@ -601,7 +601,7 @@
 
 /datum/holiday/easter/celebrate()
 	GLOB.maintenance_loot += list(
-		/obj/item/reagent_containers/food/snacks/egg/loaded = 15,
+		/obj/item/food/egg/loaded = 15,
 		/obj/item/storage/bag/easterbasket = 15)
 
 /datum/holiday/easter/greet()

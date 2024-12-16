@@ -35,7 +35,7 @@
 		/obj/item/reagent_containers/glass/bowl = 1,
 		/obj/item/reagent_containers/food/snacks/grown/nettle = 1,
 		/obj/item/reagent_containers/food/snacks/grown/potato = 1,
-		/obj/item/reagent_containers/food/snacks/boiledegg = 1
+		/obj/item/food/boiledegg = 1
 	)
 	result = /obj/item/reagent_containers/food/snacks/soup/nettle
 	subcategory = CAT_SOUP
@@ -152,7 +152,7 @@
 		/obj/item/reagent_containers/glass/bowl = 1,
 		/obj/item/reagent_containers/food/snacks/badrecipe = 1,
 		/obj/item/food/tofu = 1,
-		/obj/item/reagent_containers/food/snacks/boiledegg = 1,
+		/obj/item/food/boiledegg = 1,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
 	)
 	result = /obj/item/reagent_containers/food/snacks/soup/mystery

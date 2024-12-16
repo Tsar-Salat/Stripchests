@@ -80,10 +80,8 @@
 /obj/item/food/meat/slab/human/mutant/spider
 	icon_state = "spidermeat"
 	desc = "The stringy meat jokes have been done to death, just like this Arachnid."
-	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
-	filling_color = "#00FFFF"
 	tastes = list("meat" = 3, "stringy" = 1)
-	foodtype = MEAT | RAW | TOXIC
+	foodtypes = MEAT | RAW | TOXIC
 
 /*
 /obj/item/food/meat/slab/human/mutant/lizard/make_microwaveable()
