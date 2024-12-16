@@ -2,7 +2,7 @@
 
 /////////////////// Dough Ingredients ////////////////////////
 
-/obj/item/food/flatdough
+/obj/item/food/dough
 	name = "dough"
 	desc = "A piece of dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
