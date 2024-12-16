@@ -1136,7 +1136,7 @@
 /obj/item/toy/cards/deck{
 	pixel_y = 22
 	},
-/obj/item/reagent_containers/food/snacks/sandwich{
+/obj/item/food/sandwich{
 	pixel_x = -1;
 	pixel_y = 9
 	},

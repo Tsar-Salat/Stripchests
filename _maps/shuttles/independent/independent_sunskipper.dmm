@@ -2213,7 +2213,7 @@
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/obj/item/reagent_containers/food/snacks/sandwich{
+/obj/item/food/sandwich{
 	pixel_x = 15;
 	pixel_y = 13
 	},
