@@ -391,8 +391,8 @@
 		if(DISPENSE_LOLLIPOP_MODE)
 			food_item = new /obj/item/food/lollipop/cyborg(T)
 		if(DISPENSE_ICECREAM_MODE)
-			food_item = new /obj/item/reagent_containers/food/snacks/icecream(T)
-			var/obj/item/reagent_containers/food/snacks/icecream/I = food_item
+			food_item = new /obj/item/food/icecream(T)
+			var/obj/item/food/icecream/I = food_item
 			I.add_ice_cream("vanilla")
 			I.desc = "Eat the ice cream."
 
