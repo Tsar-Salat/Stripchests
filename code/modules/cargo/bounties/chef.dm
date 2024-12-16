@@ -120,14 +120,14 @@
 	name = "Soylent Green"
 	description = "CentCom has heard wonderful things about the product 'Soylent Green', and would love to try some. If you endulge them, expect a pleasant bonus."
 	reward = 5000
-	wanted_types = list(/obj/item/reagent_containers/food/snacks/soylentgreen)
+	wanted_types = list(/obj/item/food/soylentgreen)
 
 /datum/bounty/item/chef/pancakes
 	name = "Pancakes"
 	description = "Here at Nanotrasen we consider employees to be family. And you know what families love? Pancakes. Ship a baker's dozen."
 	reward = 5000
 	required_count = 13
-	wanted_types = list(/obj/item/reagent_containers/food/snacks/pancakes)
+	wanted_types = list(/obj/item/food/pancakes)
 
 /datum/bounty/item/chef/nuggies
 	name = "Chicken Nuggets"

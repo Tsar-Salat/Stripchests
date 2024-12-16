@@ -159,15 +159,6 @@
 //////////////      Customizable Food Types     /////////////////////////////
 /////////////////////////////////////////////////////////////////////////////
 
-/obj/item/reagent_containers/food/snacks/customizable/burger
-	name = "burger"
-	desc = "A timeless classic."
-	ingredients_placement = INGREDIENTS_STACKPLUSTOP
-	icon = 'icons/obj/food/burgerbread.dmi'
-	icon_state = "custburg"
-	foodtype = GRAIN
-
-
 /obj/item/reagent_containers/food/snacks/customizable/kebab
 	name = "kebab"
 	desc = "Delicious food on a stick."

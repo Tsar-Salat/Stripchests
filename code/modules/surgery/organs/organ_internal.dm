@@ -42,7 +42,6 @@
 		initial_reagents = food_reagents,\
 		foodtypes = RAW | MEAT | GORE,\
 		volume = 10,\
-		filling_color = COLOR_PINK,\
 		pre_eat = CALLBACK(src, PROC_REF(pre_eat)),\
 		on_compost = CALLBACK(src, PROC_REF(pre_compost)),\
 		after_eat = CALLBACK(src, PROC_REF(on_eat_from)))

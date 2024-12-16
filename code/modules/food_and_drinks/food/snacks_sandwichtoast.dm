@@ -118,3 +118,14 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("meat" = 1, "cabbage" = 1, "bread" = 2)
 	foodtype = MEAT | VEGETABLES | GRAIN | BREAKFAST
+
+/obj/item/reagent_containers/food/snacks/hotdog
+	name = "hotdog"
+	desc = "Hot and steamy hotdog weenie."
+	icon_state = "hotdog"
+	bitesize = 3
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 3)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/ketchup = 3, /datum/reagent/consumable/nutriment/vitamin = 3)
+	filling_color = "#8B0000"
+	tastes = list("bun" = 3, "meat" = 2)
+	foodtype = GRAIN | MEAT | VEGETABLES
